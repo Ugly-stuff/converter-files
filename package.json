@@ -1,0 +1,24 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "This is a simple and easy-to-use project for converting files between different formats, such as:\r  PDF ↔ Word  or  PNG ↔ JPEG",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "fs-extra": "^11.3.3",
+    "multer": "^2.0.2",
+    "pdfkit": "^0.17.2"
+  }
+}

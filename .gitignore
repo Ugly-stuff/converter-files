@@ -1,0 +1,11 @@
+# backend
+node_modules
+.env
+uploads
+output
+
+# frontend
+file-converter-frontend/node_modules
+
+# misc
+dist
