@@ -25,7 +25,8 @@ export default function App() {
     formData.append('format', format);// another key for formats
 
     try {
-      const res = await fetch('http://localhost:5000/convert', { //backend API calling
+      const res = await fetch(
+  `${import.meta.env.VITE_API_URL}/convert`, { //backend API calling
         method: 'POST', //sending data
         body: formData,
       });
